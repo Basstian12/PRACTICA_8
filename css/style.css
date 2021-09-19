@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+h1 {
+    color: #be0f1d;
+    font-weight: normal;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', monospace;
+    /* text-transform: uppercase; */
+  }
+.areaPrincipal{ /* asi se define una clase */
+    background-image: url("../img/fondo.png"); /* fondo de imagen al div */
+    background-repeat: no-repeat; /* permitir o que no se repita una imagen */
+    width: 100%;
+    height: auto;
+    opacity: 0.7; /* capacidad de la imagen */
+    -webkit-background-size: 100% 100%;
+    /*Safari 3.0*/
+    -moz-background-size: 100% 100%;
+    /*Gecko 1.9.2 (Firefox 3.6)*/
+    -o-background-size: 100% 100%;
+    /*Opera 9.5*/
+    background-size: 100% 100%;
+    /*Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers*/   
+}
+#Encabezado{
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 300px 180px;
+}
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #071038;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#Menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    
+    background-color: #0b1741;
+    box-shadow: 10px 10px 20px #000;
+    transform: rotate(4deg); /* movimiento de rotacion */
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+#datos{
+    width: 80%;
+    background-color: #05a1d1;
+    height: 600%;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td{
+    text-align: center;
+}
+
+#color{
+    
+    color: white;
+    background-image: url("../img/taco.jpg");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 215px;
+    height: 720px; 
+    width: 650px;
+    font-size: 200%;
+    text-align: justify;
+    text-shadow: 5px  0px 0px black,
+                 3px  2px 3px black;
+    float: none;
+}
+
+
+#catalogocolor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    table-layout: fixed;
+    padding: 0px;
+    height: 1500px; 
+    width: 1000px;
+    font-size: 200%;
+    text-align: justify;
+    text-shadow: 5px  0px 0px black,
+                 3px  2px 3px black;
+    float: none;
+    color: antiquewhite;
+
+}
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
